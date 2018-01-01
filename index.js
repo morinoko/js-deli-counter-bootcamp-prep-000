@@ -17,7 +17,6 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return "The line is currently empty.";
-<<<<<<< HEAD
   } else {
     var line = "The line is currently: ";
     for (let i = 1; i <= katzDeliLine.length; i++) {
@@ -27,7 +26,5 @@ function currentLine(katzDeliLine) {
       }
     } 
     return line;
-=======
->>>>>>> c4a7902f92199c05d70fc7f5a717aa54678ee9c3
   }
 }
